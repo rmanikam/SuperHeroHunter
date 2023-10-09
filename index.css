@@ -1,0 +1,180 @@
+/* gave a margin, padding of 0 and box-sizing: border-box which will apply to complete page */
+/* The CSS box-sizing property allows us to include the padding and border in an 
+element's total width and height. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* gave body a color of white */
+body {
+  color: #fff;
+}
+/* gave anchor tag text-decoration of none */
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  z-index: 92;
+}
+/* gave id called home_page a margin-right of 468px  */
+#home_page {
+  margin-right: 468px;
+}
+/* gave class container max_width, width, margin, padding  */
+.container {
+  max-width: calc(100% - 200px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* gave proprty flex, justify-content, align-items to align-items of favourite super heros horizontally */
+ol#showFavouriteSuperHeros {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 38px;
+}
+/* created a header tag width of 100% and position:absolute with top 
+   and left value of 0 and padding of 20px 0 */
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  background-color: black;
+}
+
+/* created a navbar class  */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+}
+/* created a id of nav_logo and gave it z-index of 10*/
+#nav_logo {
+  z-index: 10;
+}
+/* created a class of nav-link and gave it z-index of 10 and color: white and display:flex*/
+.nav-link {
+  color: white;
+  z-index: 10;
+  display: flex;
+}
+/* created a class of home-banner 
+An element with position: relative; is positioned relative to its normal position.  */
+.home-banner {
+  position: relative;
+  background-image: url("dc-superheroes-ji-3840x2160.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 139px;
+  height: 2014px;
+}
+/* created a class of form-banner-wrapper  */
+.form-banner-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* created a class of image_text_button */
+.image_text_button {
+  padding: 15px;
+}
+/* created a class of image_text_button and gave h2 tag a color of black */
+.image_text_button h2 {
+  color: black;
+}
+/* created a name tag */
+.name {
+  margin-right: 5px;
+}
+/* gave a margin of 10px to h2.name */
+h2.name {
+  margin-top: 10px;
+  margin-left: 66px;
+}
+/* created a div with class of full background */
+.fullBackground {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+/* created a input tag with id earchResult and gave it width:100% */
+input#searchResult {
+  width: 100%;
+}
+
+/* created an id of search_superhero */
+#search_superhero {
+  margin-left: -1px;
+  color: white;
+  margin-top: 172px;
+  text-decoration: none;
+}
+
+/* created a id of superheros_heading and gave it margin-top: 9px and color: black*/
+#superheros_heading {
+  margin-top: 9px;
+  margin-left: -67px;
+  color: black;
+}
+
+/* created a id of showResult and gave it margin-top of 36px; */
+#showResult {
+  margin-top: 36px;
+}
+/* created a button tag */
+button {
+  margin-top: 4px;
+  margin-left: 105px;
+}
+/* created an id of showSuperHeroDetails */
+#showSuperHeroDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+/* created an id of super_hero_container */
+#super_hero_container {
+  border: 1px solid white;
+}
+/* created an img tag */
+img {
+  margin-top: 10px;
+  margin-left: -8px;
+  margin-right: 5px;
+}
+/* created an h3 tag and gave it text-decoration:underline*/
+h3 {
+  text-decoration: underline;
+  margin-left: 79px;
+}
+
+/* created a div with id showResult */
+div#showResult {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*created an li tag with margin-right of 10px */
+li {
+  margin-right: 10px;
+}
+/*created an ul tag with margin-right of 54px */
+ul {
+  margin-left: 54px;
+}
+/*created an ol tag with margin-left of 10px */
+ol {
+  margin-left: 10px;
+}

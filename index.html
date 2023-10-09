@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Hero Hunter</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- created a header tag with class ="header" -->
+    <header class="header">
+      <!-- created a div with class of container -->
+      <div class="container">
+        <!-- created a div with id of navbar -->
+        <div id="navbar">
+          <!-- created a div with id of nav_logo -->
+          <div id="nav_logo">
+            <!-- created a img tag containing the logo -->
+            <img class="logo" src="superhero_logo.jpg" width="100px" alt="superhero_logo" />
+          </div>
+          <!-- created a div with class of nav-link -->
+          <div class="nav-link">
+            <!-- created a Home Page link using anchor tag -->
+            <a href="#" id="home_page"><p>Home Page</p></a>
+            <!-- created a Favourites Page link using anchor tag -->
+            <a href="Favourites.html"><p>Favourites Page</p></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- created a section with class home-banner -->
+    <section class="home-banner">
+      <!-- created a div with class fullBackground -->
+      <div class="fullBackground">
+        <!-- created a div with class container -->
+        <div class="container">
+          <!-- created a div with class form-banner-wrapper -->
+          <div class="form-banner-wrapper">
+            <!-- created a div with class fullBackground__inner_heading -->
+            <div class="fullBackground__inner_heading">
+              <!-- used h3 heading for searching favourite superhero -->
+              <h3 id="search_superhero">Search for your favourite superhero</h3>
+              <!-- created an input tag with id searchResult -->
+              <input type="text" id="searchResult" placeholder="Search your favourite superhero" />
+            </div>
+          </div>
+          <!-- displaying a h1 heading list of superheros -->
+          <h1 id="superheros_heading">List of superheros</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- created an input tag for searching favourite superhero and placeholder contains value 
+        "Search your favourite superhero" and id ="searchResult"-->
+
+    <!-- created a div tag with id ="showResult" which shows list of super heros -->
+    <div id="showResult"></div>
+    <!-- note include this crypto library in html otherwise i will get error 
+      superhero_details.js:13  Uncaught (in promise) ReferenceError:
+       CryptoJS is not defined -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
